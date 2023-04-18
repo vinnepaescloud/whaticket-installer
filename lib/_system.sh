@@ -35,7 +35,7 @@ system_git_clone() {
   sleep 2
 
   sudo su - deploy <<EOF
-  git clone https://github.com/w3nder/whaticket-free /home/deploy/whaticket/
+  git clone https://github.com/melissagobatti/install_siwhaticket_saas /home/deploy/whaticket/
 EOF
 
   sleep 2
