@@ -35,7 +35,7 @@ system_git_clone() {
   sleep 2
 
   sudo su - deploy <<EOF
-  git clone https://github.com/thiagoaraujo007/novoupdateSAAS /home/deploy/whaticket/
+  git clone https://github.com/JokerSSH/whaticket-installer /home/deploy/whaticket/
 EOF
 
   sleep 2
